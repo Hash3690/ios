@@ -45,14 +45,16 @@ import UIKit
         return instance
     }()
     
-    @objc public var brand:                             String = "Nextcloud"
+    @objc public var brand:                             String = "Leviia"
     @objc public var mailMe:                            String = "ios@nextcloud.com"
     @objc public var textCopyrightNextcloudiOS:         String = "Nextcloud Coherence for iOS %@ © 2020"
     @objc public var textCopyrightNextcloudServer:      String = "Nextcloud Server %@"
-    @objc public var loginBaseUrl:                      String = "https://cloud.nextcloud.com"
+    //@objc public var loginBaseUrl:                      String = "https://cloud.nextcloud.com"
+    @objc public var loginBaseUrl:                      String = "https://cloud.leviia.com"
     @objc public var pushNotificationServerProxy:       String = "https://push-notifications.nextcloud.com"
     @objc public var linkLoginHost:                     String = "https://nextcloud.com/install"
-    @objc public var linkloginPreferredProviders:       String = "https://nextcloud.com/signup";
+    //@objc public var linkloginPreferredProviders:       String = "https://nextcloud.com/signup";
+    @objc public var linkloginPreferredProviders:       String = "https://www.leviia.com/";
     @objc public var webLoginAutenticationProtocol:     String = "nc://"                                            // example "abc://"
     // Personalized
     @objc public var webCloseViewProtocolPersonalized:  String = ""                                                 // example "abc://change/plan"      Don't touch me !!
@@ -78,7 +80,8 @@ import UIKit
     @objc public var use_loginflowv2:                   Bool = false                                                // Don't touch me !!
 
     @objc public var disable_intro:                     Bool = false
-    @objc public var disable_request_login_url:         Bool = false
+    //@objc public var disable_request_login_url:         Bool = false
+    @objc public var disable_request_login_url:         Bool = true
     @objc public var disable_multiaccount:              Bool = false
     @objc public var disable_manage_account:            Bool = false
     @objc public var disable_more_external_site:        Bool = false
@@ -103,7 +106,8 @@ class NCBrandColor: NSObject {
     }()
 
     // Color
-    @objc public let customer:              UIColor = UIColor(red: 0.0/255.0, green: 130.0/255.0, blue: 201.0/255.0, alpha: 1.0)    // BLU NC : #0082c9
+    //@objc public let customer:              UIColor = UIColor(red: 0.0/255.0, green: 130.0/255.0, blue: 201.0/255.0, alpha: 1.0)    // BLU NC : #0082c9
+    @objc public let customer:              UIColor = UIColor(red: 0.0/255.0, green: 188.0/255.0, blue: 115.0/255.0, alpha: 1.0)    // GREEN LEVIIA : #00BC73
     @objc public var customerText:          UIColor = .white
     
     @objc public var brand:                 UIColor                                                                                 // don't touch me
@@ -119,7 +123,8 @@ class NCBrandColor: NSObject {
     @objc public var separator:             UIColor = UIColor(red: 235.0/255.0, green: 235.0/255.0, blue: 235.0/255.0, alpha: 1.0)
     @objc public var tabBar:                UIColor = .white
     @objc public let nextcloud:             UIColor = UIColor(red: 0.0/255.0, green: 130.0/255.0, blue: 201.0/255.0, alpha: 1.0)
-    @objc public let nextcloudSoft:         UIColor = UIColor(red: 90.0/255.0, green: 160.0/255.0, blue: 210.0/255.0, alpha: 1.0)
+    //@objc public let nextcloudSoft:         UIColor = UIColor(red: 90.0/255.0, green: 160.0/255.0, blue: 210.0/255.0, alpha: 1.0)
+    @objc public let nextcloudSoft:         UIColor = UIColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 0.5)
     @objc public let icon:                  UIColor = UIColor(red: 104.0/255.0, green: 104.0/255.0, blue: 104.0/255.0, alpha: 1.0)
     @objc public let optionItem:            UIColor = UIColor(red: 178.0/255.0, green: 178.0/255.0, blue: 178.0/255.0, alpha: 1.0)
     @objc public let graySoft:              UIColor = UIColor(red: 162.0/255.0, green: 162.0/255.0, blue: 162.0/255.0, alpha: 0.5)

@@ -124,6 +124,7 @@
     // Type view
     [self.loginTypeView setTitle:NSLocalizedString(@"_traditional_login_", nil) forState:UIControlStateNormal];
     [self.loginTypeView setTitleColor:[textColor colorWithAlphaComponent:0.5] forState:UIControlStateNormal];
+    self.loginTypeView.hidden = YES;
 
     // Brand
     if ([NCBrandOptions sharedInstance].disable_request_login_url) {
