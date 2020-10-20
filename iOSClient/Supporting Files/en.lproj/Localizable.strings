@@ -172,6 +172,7 @@
 // Settings
 
 "_acknowledgements_"            = "Acknowledgements";
+"_rate_this_app_"               = "Rate this app";
 "_settings_"                    = "Settings";
 "_passcode_"                    = "Password";
 "_lock_"                        = "Lock";

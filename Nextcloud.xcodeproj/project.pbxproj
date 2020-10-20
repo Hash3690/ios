@@ -1644,7 +1644,7 @@
 				F77B0EDC1D118A16002130FE /* Frameworks */,
 				F77B0EE91D118A16002130FE /* Resources */,
 				F77B0F981D118A16002130FE /* Embed App Extensions */,
-				F75A40001EBCB82B00B213E8 /* ShellScript */,
+				F75A40001EBCB82B00B213E8 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -1882,7 +1882,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F75A40001EBCB82B00B213E8 /* ShellScript */ = {
+		F75A40001EBCB82B00B213E8 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 12;
 			files = (
@@ -1913,6 +1913,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Sentry.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Queuer.framework",
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;

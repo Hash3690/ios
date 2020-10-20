@@ -28,6 +28,7 @@
 #import "NCManageEndToEndEncryption.h"
 #import "NCBridgeSwift.h"
 #import <TOPasscodeViewController/TOPasscodeViewController.h>
+#import <StoreKit/StoreKit.h>
 
 
 #define alertViewEsci 1
@@ -178,6 +179,20 @@
     [row.cellConfig setObject:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"acknowledgements"] width:50 height:50 color:NCBrandColor.sharedInstance.icon] forKey:@"imageView.image"];
     row.action.formBlock = ^(XLFormRowDescriptor * sender){
         [self performSegueWithIdentifier:@"AcknowledgementsSegue" sender:sender];
+        [self deselectFormRow:sender];
+    };
+    [section addFormRow:row];
+    
+    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"buttonLeftAligned" rowType:XLFormRowDescriptorTypeButton title:NSLocalizedString(@"_rate_this_app_", nil)];
+    row.cellConfigAtConfigure[@"backgroundColor"] = NCBrandColor.sharedInstance.backgroundCell;
+    [row.cellConfig setObject:[UIFont systemFontOfSize:15.0] forKey:@"textLabel.font"];
+    [row.cellConfig setObject:@(NSTextAlignmentLeft) forKey:@"textLabel.textAlignment"];
+    [row.cellConfig setObject:NCBrandColor.sharedInstance.textView forKey:@"textLabel.textColor"];
+    [row.cellConfig setObject:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"iconAppStore"] width:50 height:50 color:NCBrandColor.sharedInstance.icon] forKey:@"imageView.image"];
+    row.action.formBlock = ^(XLFormRowDescriptor * sender){
+        dispatch_async(dispatch_get_main_queue(), ^(void){
+            [SKStoreReviewController requestReview];
+        });
         [self deselectFormRow:sender];
     };
     [section addFormRow:row];
