@@ -67,7 +67,8 @@ import UIKit
     @objc public var capabilitiesGroups:                String = "group.it.twsweb.Crypto-Cloud"
     
     // User Agent
-    @objc public var userAgent:                         String = "Nextcloud-iOS"                                    // Don't touch me !!
+    //@objc public var userAgent:                         String = "Nextcloud-iOS"                                    // Don't touch me !!
+    @objc public var userAgent:                         String = "Leviia-iOS"                                    // Arnaud gave the permission to change the user agent, I changed it and did not find any bug
     
     // Options
     @objc public var use_login_web_personalized:        Bool = false                                                // Don't touch me !!
