@@ -454,7 +454,7 @@
             sectionName = NSLocalizedString(@"_lock_protection_no_screen_footer_", nil);
         }
         break;
-        case 5: {
+        /*case 5: {
                                 
             NSString *versionServer = [[NCManageDatabase sharedInstance] getCapabilitiesServerStringWithAccount:appDelegate.account elements:NCElementsJSON.shared.capabilitiesVersionString];
             NSString *themingName = [[NCManageDatabase sharedInstance] getCapabilitiesServerStringWithAccount:appDelegate.account elements:NCElementsJSON.shared.capabilitiesThemingName];
@@ -468,7 +468,7 @@
             NSString *nameSlogan = [NSString stringWithFormat:@"%@ - %@", themingName, themingSlogan];
             
             sectionName = [NSString stringWithFormat:@"%@\n\n%@\n%@", versionNextcloudiOS, versionNextcloud, nameSlogan];
-        }
+        }*/
         break;
     }
     return sectionName;
