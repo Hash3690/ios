@@ -129,7 +129,7 @@
     
     // Section DIAGNOSTICS -------------------------------------------------
 
-    section = [XLFormSectionDescriptor formSectionWithTitle:NSLocalizedString(@"_diagnostics_", nil)];
+    /*section = [XLFormSectionDescriptor formSectionWithTitle:NSLocalizedString(@"_diagnostics_", nil)];
     [form addFormSection:section];
     
     NSString *fileNameLog = [[NCCommunicationCommon shared] getFileNameLog];
@@ -202,7 +202,7 @@
         NCCapabilitiesViewController *capabilities = [[UIStoryboard storyboardWithName:@"NCCapabilitiesViewController" bundle:nil] instantiateInitialViewController];        
         [self presentViewController:capabilities animated:YES completion:nil];
     };
-    [section addFormRow:row];
+    [section addFormRow:row];*/
 
     // Section CLEAR CACHE -------------------------------------------------
     
