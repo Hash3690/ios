@@ -41,6 +41,7 @@
 "_updating_sharing_"        = "Updating share";
 "_removing_sharing_"        = "Removing share";
 "_add_"                     = "Add";
+//"_login_"                   = "Log in";
 "_login_"                   = "Log in with username and password";
 "_save_"                    = "Save";
 "_warning_"                 = "Warning";
