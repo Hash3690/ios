@@ -64,7 +64,7 @@ import UIKit
     @objc public var folderDefaultAutoUpload:           String = "Photos"
     
     // Capabilities Group
-    @objc public var capabilitiesGroups:                String = "group.leviia.app"
+    @objc public var capabilitiesGroups:                String = "group.leviia"
     
     // User Agent
     //@objc public var userAgent:                         String = "Nextcloud-iOS"                                    // Don't touch me !!
