@@ -18,7 +18,7 @@
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.leviia.app</string>
+		<string>group.leviia</string>
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
