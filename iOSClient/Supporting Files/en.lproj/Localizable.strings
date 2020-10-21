@@ -758,7 +758,8 @@
 "_intro_4_title_"                   = "Screensharing, online meetings & web conferences";
 
 "_log_in_"                          = "Log in";
-"_sign_up_"                         = "Sign up with provider";
+//"_sign_up_"                         = "Sign up with provider";
+"_sign_up_"                         = "Get an account";
 "_host_your_own_server"             = "Host your own server";
 
 // Error
