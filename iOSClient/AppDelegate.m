@@ -46,9 +46,9 @@
 {
     BOOL isSimulatorOrTestFlight = [[NCUtility shared] isSimulatorOrTestFlight];
     
-    if (isSimulatorOrTestFlight) {
+    /*if (isSimulatorOrTestFlight) {
         NCBrandOptions.sharedInstance.disable_crash_service = false;
-    }
+    }*/
     if (![CCUtility getDisableCrashservice] && NCBrandOptions.sharedInstance.disable_crash_service == false) {
         [SentrySDK startWithOptions: @{
             @"dsn": @"https://42eaf570ec2646b1a564a4c4bfc8c279@o394108.ingest.sentry.io/5243836",
