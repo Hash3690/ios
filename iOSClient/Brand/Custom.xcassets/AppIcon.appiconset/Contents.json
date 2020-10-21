@@ -1,19 +1,19 @@
 {
   "images" : [
     {
-      "filename" : "Icon-40 (2).png",
+      "filename" : "Icon-40.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "Icon-61.png",
+      "filename" : "Icon-60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
-      "filename" : "Icon-29 (1).png",
+      "filename" : "Icon-29.png",
       "idiom" : "iphone",
       "scale" : "1x",
       "size" : "29x29"
