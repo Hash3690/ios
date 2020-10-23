@@ -173,7 +173,10 @@ class NCIntroViewController: UIViewController, UICollectionViewDataSource, UICol
     }
 
     @IBAction func signup(_ sender: Any) {
-        (UIApplication.shared.delegate as! AppDelegate).openLoginView(navigationController, selector: Int(k_intro_signup), openLoginWeb: false)
+        //(UIApplication.shared.delegate as! AppDelegate).openLoginView(navigationController, selector: Int(k_intro_signup), openLoginWeb: false)
+        if let url = URL(string: NCBrandOptions.sharedInstance.linkloginPreferredProviders) {
+            UIApplication.shared.open(url)
+        }
     }
 
     @IBAction func host(_ sender: Any) {
