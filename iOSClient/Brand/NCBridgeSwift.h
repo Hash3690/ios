@@ -29,7 +29,7 @@
 // to     : brand-Swift.h
 //
 #if !defined(EXTENSION)
-#import "Nextcloud-Swift.h"
+#import "Leviia-Swift.h"
 #endif
 
 // Nextcloud Share

@@ -676,7 +676,7 @@
 		F7CA1ECF20E7E3FE002CC65E /* PKPendingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPendingView.h; sourceTree = "<group>"; };
 		F7CBC31B24F78E79004D3812 /* NCSortMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCSortMenu.swift; sourceTree = "<group>"; };
 		F7CC04E61F5AD50D00378CEF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F7CE8AFA1DC1F8D8009CAE48 /* Nextcloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nextcloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CE8AFA1DC1F8D8009CAE48 /* Leviia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leviia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CE8AFB1DC1F8D8009CAE48 /* Share.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Share.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D154271E2392A300202FD9 /* Nextcloud-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Nextcloud-Bridging-Header.h"; sourceTree = "<group>"; };
 		F7D1611F23CF19E30039EBBF /* NCViewerRichWorkspace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NCViewerRichWorkspace.storyboard; sourceTree = "<group>"; };
@@ -1539,7 +1539,7 @@
 		F7FC7D651DC1F98700BB2C6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7CE8AFA1DC1F8D8009CAE48 /* Nextcloud.app */,
+				F7CE8AFA1DC1F8D8009CAE48 /* Leviia.app */,
 				F7CE8AFB1DC1F8D8009CAE48 /* Share.appex */,
 			);
 			name = Products;
@@ -1636,9 +1636,9 @@
 			productReference = F771E3D020E2392D00AFB62D /* File Provider Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		F77B0DEB1D118A16002130FE /* Nextcloud */ = {
+		F77B0DEB1D118A16002130FE /* Leviia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F77B0F9A1D118A16002130FE /* Build configuration list for PBXNativeTarget "Nextcloud" */;
+			buildConfigurationList = F77B0F9A1D118A16002130FE /* Build configuration list for PBXNativeTarget "Leviia" */;
 			buildPhases = (
 				F77B0DEF1D118A16002130FE /* Sources */,
 				F77B0EDC1D118A16002130FE /* Frameworks */,
@@ -1653,7 +1653,7 @@
 				F771E3EA20E2392E00AFB62D /* PBXTargetDependency */,
 				2C33C48523E2C475005F963B /* PBXTargetDependency */,
 			);
-			name = Nextcloud;
+			name = Leviia;
 			packageProductDependencies = (
 				F782A57A25123694007BBABD /* Realm */,
 				F782A57C25123694007BBABD /* RealmSwift */,
@@ -1661,7 +1661,7 @@
 				F7C4D88C2534887E00C142DA /* Parchment */,
 			);
 			productName = "Crypto Cloud";
-			productReference = F7CE8AFA1DC1F8D8009CAE48 /* Nextcloud.app */;
+			productReference = F7CE8AFA1DC1F8D8009CAE48 /* Leviia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1768,7 +1768,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F77B0DEB1D118A16002130FE /* Nextcloud */,
+				F77B0DEB1D118A16002130FE /* Leviia */,
 				F71459B41D12E3B700CAFEEC /* Share */,
 				F771E3CF20E2392D00AFB62D /* File Provider Extension */,
 				2C33C47E23E2C475005F963B /* Notification Service Extension */,
@@ -2765,7 +2765,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F77B0F9A1D118A16002130FE /* Build configuration list for PBXNativeTarget "Nextcloud" */ = {
+		F77B0F9A1D118A16002130FE /* Build configuration list for PBXNativeTarget "Leviia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F77B0F9B1D118A16002130FE /* Debug */,
