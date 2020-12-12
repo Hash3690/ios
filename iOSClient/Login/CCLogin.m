@@ -120,6 +120,8 @@
     self.login.tintColor = textColorOpponent;
     self.login.layer.cornerRadius = 20;
     self.login.clipsToBounds = YES;
+    UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
+    [self.login addGestureRecognizer:longPress];
     
     // Type view
     [self.loginTypeView setTitle:NSLocalizedString(@"_traditional_login_", nil) forState:UIControlStateNormal];
@@ -148,6 +150,12 @@
         _imagePassword.hidden = YES;
         _password.hidden = YES;
         self.navigationItem.leftBarButtonItem = cancelButton;
+    }
+}
+
+- (void)longPress:(UILongPressGestureRecognizer*)gesture {
+    if ( gesture.state == UIGestureRecognizerStateEnded ) {
+        _baseUrl.hidden = NO;
     }
 }
 
